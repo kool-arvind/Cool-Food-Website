@@ -538,6 +538,7 @@ color:crimson ;
 .support-section,
 .about-section{
     min-width: 15vw;
+    text-align:center;
 }
 
 @media (840px >= width >= 700px) {
