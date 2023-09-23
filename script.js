@@ -8,10 +8,10 @@ const observer = new IntersectionObserver((entries) =>{
            
         }
         // we can see the animation every single time when we got the page if we remove comment of else
-        // else{
-        //     entry.target.classList.remove('show')
+        else{
+           entry.target.classList.remove('show')
           
-        // }
+         }
     })
     })
     const hidden = document.querySelectorAll(".hidden");
